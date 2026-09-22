@@ -7,171 +7,150 @@
 <meta name="description" content="Hannah Kamen, applied economist studying climate risk, urban housing markets, and land use policy. Causal inference, structural modeling, and spatial data.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header class="topbar">
-  <nav class="wrap nav">
-    <a class="brand" href="#top">Hannah Kamen</a>
-    <div class="links">
-      <a href="#research">Research</a>
-      <a href="#publications">Publications</a>
-      <a href="#experience">Experience</a>
-      <a href="files/Kamen_CV.pdf">CV</a>
-    </div>
+<header class="wrap topbar">
+  <span class="crumb">Colorado School of Mines <span class="sep">/</span> Economics &amp; Business</span>
+  <nav>
+    <a href="#research">Research</a>
+    <a href="#publications">Publications</a>
+    <a href="files/Kamen_CV.pdf">CV</a>
   </nav>
 </header>
 
-<main id="top" class="wrap">
+<div class="wrap layout">
+  <aside class="sidebar">
+    <img class="photo" src="files/headshot.jpg" alt="Hannah Kamen">
+    <h1>Hannah Kamen</h1>
+    <p class="role">Applied Economist<br>Environmental, Urban &amp; Housing Economics</p>
+    <p class="blurb">
+      I am an applied environmental and resource economist. My research investigates how environmental
+      risk and local land use regulation reshape urban housing markets and the welfare of the households
+      who live in them.
+    </p>
+    <p class="market">On the 2026&ndash;27 job market</p>
+    <ul class="contact">
+      <li><a href="mailto:hkamen@mines.edu">hkamen@mines.edu</a></li>
+      <li><a href="files/Kamen_JMP.pdf">Job Market Paper</a></li>
+      <li><a href="files/Kamen_CV.pdf">CV</a></li>
+      <li><a href="https://github.com/hmkamen">GitHub</a></li>
+    </ul>
+  </aside>
+  <main>
 
-  <!-- ============ ABOUT ============ -->
-  <section class="hero">
-    <div class="photo">
-      <img src="files/headshot.jpg" alt="Hannah Kamen"
-           onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-      <div class="initials" aria-hidden="true">HK</div>
-    </div>
-    <div class="intro">
-      <h1>Hannah Kamen</h1>
-      <p class="role">Applied Economist &middot; Environmental, Urban &amp; Housing Economics</p>
-      <p>
-        I am an applied environmental and resource economist. My research investigates how environmental
-        risk and local land use regulation reshape urban housing markets and the welfare of the households
-        who live in them.
-      </p>
+    <section id="about">
+      <h2>About</h2>
       <p>
         I successfully defended my Ph.D. in Mineral &amp; Energy Economics (Applied Economics) at the Colorado School
         of Mines in August 2026 and will graduate in December 2026. I also hold an M.S. in Mineral &amp; Energy
-        Economics from the Colorado School of Mines and a B.A. in Economics from the University
-        of Rochester. Before and during graduate school I
-        worked as a data science team lead, an economic consultant, and a researcher at NREL,
-        the USDA Economic Research Service, and Resources for the Future.
+        Economics from the Colorado School of Mines and a B.A. in Economics with Distinction from the University
+        of Rochester. Before and during graduate school I worked as a data science team lead, an economic
+        consultant, and a researcher at NREL, the USDA Economic Research Service, and Resources for the Future.
       </p>
-      <p class="market"><strong>I am on the 2026&ndash;27 job market.</strong></p>
-      <div class="buttons">
-        <a class="btn primary" href="files/Kamen_JMP.pdf">Job Market Paper (PDF)</a>
-        <a class="btn" href="files/Kamen_CV.pdf">CV (PDF)</a>
-        <a class="btn" href="mailto:hkamen@mines.edu">hkamen@mines.edu</a>
-        <a class="btn" href="https://github.com/hmkamen">GitHub</a>
-        <!-- <a class="btn" href="https://www.linkedin.com/in/YOUR-HANDLE">LinkedIn</a> -->
-      </div>
-    </div>
-  </section>
+      <p class="fields"><span>Research interests:</span> Environmental &amp; Resource Economics &middot; Energy Economics &middot;
+        Urban Economics &middot; Housing &amp; Land Use Policy &middot; Climate Adaptation &middot;
+        Applied Econometrics &amp; Causal Inference &middot; Structural &amp; Spatial Equilibrium Modeling</p>
+    </section>
 
-  <section class="fields">
-    <h2>Research Interests</h2>
-    <ul class="tags">
-      <li>Environmental &amp; Resource Economics</li>
-      <li>Energy Economics</li>
-      <li>Urban Economics</li>
-      <li>Housing &amp; Land Use Policy</li>
-      <li>Climate Adaptation</li>
-      <li>Applied Econometrics &amp; Causal Inference</li>
-      <li>Structural &amp; Spatial Equilibrium Modeling</li>
-    </ul>
-  </section>
+    <section id="research">
+      <h2>Research</h2>
 
-  <!-- ============ RESEARCH ============ -->
-  <section id="research">
-    <h2>Research</h2>
+      <article class="paper">
+        <p class="kicker">Job Market Paper</p>
+        <h3>Can Inclusionary Zoning Mitigate Climate Gentrification? Income-Based Sorting on Urban Cooling Investments <a class="pdf" href="files/Kamen_JMP.pdf">PDF&nbsp;&#8599;</a></h3>
+        <p class="methods">Methods: structural modeling &middot; discrete choice &middot; instrumental variables &middot; policy analysis &middot; spatial data &amp; GIS</p>
+        <details open>
+          <summary>Abstract</summary>
+          <p>
+            Using a spatial equilibrium model of household sorting in Maricopa County, AZ, I show that public
+            cooling investments (e.g., shade trees, cool pavement) can raise rents and displace the low-income
+            residents they aim to help. Phoenix's Cool Corridors program alone leaves low-income renters with only
+            $20 of the $432 the cooling is worth to them. Pairing it with minimum-lot reform targeted to the most
+            constrained neighborhoods raises their gain to $506 a year.
+          </p>
+        </details>
+      </article>
 
-    <article class="paper jmp">
-      <p class="label">Job Market Paper</p>
-      <h3><a href="files/Kamen_JMP.pdf">Can Inclusionary Zoning Mitigate Climate Gentrification? Income-Based Sorting on Urban Cooling Investments</a></h3>
-      <p class="methods"><span>Methods:</span> structural modeling &middot; discrete choice &middot; instrumental variables &middot; policy analysis &middot; spatial data &amp; GIS</p>
-      <p>
-        Using a spatial equilibrium model of household sorting in Maricopa County, AZ, I show that public
-        cooling investments (e.g., shade trees, cool pavement) can raise rents and displace the low-income residents they aim to help. I find that Phoenix's
-        Cool Corridors program alone leaves low-income renters with only $20 of the $432 the cooling is worth
-        to them. However, pairing it with minimum-lot residential zoning reform targeted to the most housing constrained neighborhoods raises
-        their gain to $506 a year.
-      </p>
-      <p class="meta"><a href="files/Kamen_JMP.pdf">Download PDF</a></p>
-    </article>
+      <article class="paper">
+        <h3>The Price of Cool: How Urban Heat Shapes Neighborhood Value</h3>
+        <p class="status">Revisions requested, <em>Journal of the Association of Environmental and Resource Economists</em></p>
+        <p class="methods">Methods: causal inference &middot; instrumental variables &middot; difference-in-differences &middot; hedonic valuation &middot; spatial econometrics</p>
+        <details>
+          <summary>Abstract</summary>
+          <p>
+            I develop a novel instrumental variable based on urban surface airflow to estimate what households
+            are willing to pay for public cooling (e.g. shade trees, cool pavement) at multiple spatial scales.
+            I find that households are willing to pay $676 a year for a 1&deg;C reduction in summer temperatures
+            near the home and $245 for equivalent neighborhood-wide cooling. Furthermore, I show that because urban
+            cooling benefits spill over beyond the corridor's census tract, tract-level evaluations understate the
+            $137 million value of Phoenix's Cool Corridors program by 53%.
+          </p>
+        </details>
+      </article>
 
-    <article class="paper">
-      <h3>The Price of Cool: How Urban Heat Shapes Neighborhood Value</h3>
-      <p class="status">Revisions requested, <em>Journal of the Association of Environmental and Resource Economists</em></p>
-      <p class="methods"><span>Methods:</span> causal inference &middot; instrumental variables &middot; difference-in-differences &middot; hedonic valuation &middot; spatial econometrics</p>
-      <p>
-        I develop a novel instrumental variable based on urban surface airflow to estimate what households
-        are willing to pay for public cooling (e.g. shade trees, cool pavement) at multiple spatial scales. I find that households are willing to pay
-        $676 a year for a 1&deg;C reduction in summer temperatures near the home and $245 for equivalent
-        neighborhood-wide cooling. Furthermore, I show that because urban cooling benefits spill over beyond
-        the corridor's census tract, tract-level evaluations understate the $137 million value of Phoenix's
-        Cool Corridors program by 53%.
-      </p>
-    </article>
+      <article class="paper">
+        <h3>Extreme Heat and U.S. Labor Relocation: Implications for Inequality</h3>
+        <p class="methods">Methods: structural modeling &middot; discrete choice &middot; computable general equilibrium (CGE)</p>
+        <details>
+          <summary>Abstract</summary>
+          <p>
+            Using a discrete choice model of household location linked to a computable general equilibrium
+            model of the U.S. economy, I project how climate-induced migration affects wages by educational
+            attainment. I find that college-educated workers leave the South at higher rates than
+            non-college-educated workers. Less-educated workers who remain in southern states see their wages
+            fall by up to 1.4%, while remaining college-educated workers' wages increase by up to 2.1%.
+          </p>
+        </details>
+      </article>
+    </section>
 
-    <article class="paper">
-      <h3>Extreme Heat and U.S. Labor Relocation: Implications for Inequality</h3>
-      <p class="methods"><span>Methods:</span> structural modeling &middot; discrete choice &middot; computable general equilibrium (CGE)</p>
-      <p>
-        Using a discrete choice model of household location linked to a computable general equilibrium
-        model of the U.S. economy, I project how climate-induced migration affects wages by educational
-        attainment. I find that college-educated workers leave the South at higher rates
-        than non-college-educated workers. Less-educated workers who remain in southern states see their
-        wages fall by up to 1.4%, while remaining college-educated workers' wages increase by up to 2.1%.
-      </p>
-    </article>
-  </section>
+    <section id="publications">
+      <h2>Publications &amp; Reports</h2>
+      <ul class="pubs">
+        <li>
+          <strong>Kamen, H.</strong> &ldquo;The Price of Cool: How Urban Heat Shapes Neighborhood Value.&rdquo;
+          Revisions requested, <em>Journal of the Association of Environmental and Resource Economists</em>.
+        </li>
+        <li>
+          Winikoff, J.B., <strong>H. Kamen</strong>, and R.W. Winkler (2026).
+          &ldquo;Household Energy Use in Rural America: Costs, Burdens, and Contributing Factors.&rdquo;
+          <em>USDA Economic Information Bulletin</em>, forthcoming October 7, 2026.
+        </li>
+        <li>
+          Wobus, C., E. Small, J.C. Carbone, P. Modi, <strong>H. Kamen</strong>, W. Szafranski, and B. Livneh (2022).
+          &ldquo;<a href="https://doi.org/10.3390/w14203280">Water Allocation, Return Flows, and Economic Value in Water-Scarce Environments</a>.&rdquo;
+          <em>Water</em> 14(20): 3280.
+        </li>
+        <li>
+          Kuwayama, Y., and <strong>H. Kamen</strong> (2016).
+          &ldquo;What Drives the Reuse of Municipal Wastewater? A County-Level Analysis of Florida.&rdquo;
+          <em>Land Economics</em> 92: 679&ndash;702.
+        </li>
+      </ul>
+    </section>
 
-  <!-- ============ PUBLICATIONS ============ -->
-  <section id="publications">
-    <h2>Publications &amp; Reports</h2>
-    <ol class="pubs">
-      <li>
-        <strong>Kamen, H.</strong> &ldquo;The Price of Cool: How Urban Heat Shapes Neighborhood Value.&rdquo;
-        Revisions requested, <em>Journal of the Association of Environmental and Resource Economists</em>.
-      </li>
-      <li>
-        Winikoff, J.B., <strong>H. Kamen</strong>, and R.W. Winkler (2026).
-        &ldquo;Household Energy Use in Rural America: Costs, Burdens, and Contributing Factors.&rdquo;
-        <em>USDA Economic Information Bulletin</em>, forthcoming October 7, 2026.
-      </li>
-      <li>
-        Wobus, C., E. Small, J.C. Carbone, P. Modi, <strong>H. Kamen</strong>, W. Szafranski, and B. Livneh (2022).
-        &ldquo;<a href="https://doi.org/10.3390/w14203280">Water Allocation, Return Flows, and Economic Value in Water-Scarce Environments</a>.&rdquo;
-        <em>Water</em> 14(20): 3280.
-      </li>
-      <li>
-        Kuwayama, Y., and <strong>H. Kamen</strong> (2016).
-        &ldquo;What Drives the Reuse of Municipal Wastewater? A County-Level Analysis of Florida.&rdquo;
-        <em>Land Economics</em> 92: 679&ndash;702.
-      </li>
-    </ol>
-  </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <ul class="positions">
+        <li><span><strong>National Renewable Energy Laboratory (NREL)</strong>, Grid Planning Researcher</span><span class="yr">2024&ndash;2026</span></li>
+        <li><span><strong>USDA Economic Research Service</strong>, Economist Student Trainee</span><span class="yr">2024</span></li>
+        <li><span><strong>NSF Stream Systems Program, Colorado School of Mines</strong>, Research Assistant</span><span class="yr">2020&ndash;2024</span></li>
+        <li><span><strong>SocialCode (now Code3)</strong>, Data Scientist, Team Lead</span><span class="yr">2017&ndash;2020</span></li>
+        <li><span><strong>SocialCode (now Code3)</strong>, Ad Manager</span><span class="yr">2016</span></li>
+        <li><span><strong>NERA Economic Consulting</strong>, Research Associate</span><span class="yr">2015&ndash;2016</span></li>
+        <li><span><strong>Resources for the Future</strong>, Research Intern</span><span class="yr">2014</span></li>
+      </ul>
+      <p class="tools"><span>Tools:</span> Python (pandas, statsmodels, scikit-learn, geopandas) &middot; R &middot; Stata &middot; SQL &middot; SAS &middot; GAMS &middot; QGIS &middot; Git</p>
+    </section>
 
-  <!-- ============ EXPERIENCE ============ -->
-  <section id="experience">
-    <h2>Experience</h2>
-    <ul class="positions">
-      <li><span><strong>National Renewable Energy Laboratory (NREL)</strong>, Grid Planning Researcher</span><span class="yr">2024&ndash;2026</span></li>
-      <li><span><strong>USDA Economic Research Service</strong>, Economist Student Trainee</span><span class="yr">2024</span></li>
-      <li><span><strong>NSF Stream Systems Program, Colorado School of Mines</strong>, Research Assistant</span><span class="yr">2020&ndash;2024</span></li>
-      <li><span><strong>SocialCode (now Code3)</strong>, Data Scientist, Team Lead</span><span class="yr">2017&ndash;2020</span></li>
-      <li><span><strong>SocialCode (now Code3)</strong>, Ad Manager</span><span class="yr">2016</span></li>
-      <li><span><strong>NERA Economic Consulting</strong>, Research Associate</span><span class="yr">2015&ndash;2016</span></li>
-      <li><span><strong>Resources for the Future</strong>, Research Intern</span><span class="yr">2014</span></li>
-    </ul>
-
-    <h3 class="sub">Tools</h3>
-    <p class="tools">Python (pandas, statsmodels, scikit-learn, geopandas) &middot; R &middot; Stata &middot; SQL &middot; SAS &middot; GAMS &middot; QGIS &middot; Git</p>
-  </section>
-
-  <section id="contact" class="contact">
-    <h2>Contact</h2>
-    <p>
-      <a href="mailto:hkamen@mines.edu">hkamen@mines.edu</a><br>
-      Department of Economics &amp; Business, Colorado School of Mines &middot; Denver, CO
-    </p>
-  </section>
-
-</main>
-
-<footer class="wrap foot">Last updated September 2026</footer>
+    <footer class="foot">
+      Department of Economics &amp; Business, Colorado School of Mines &middot; Denver, CO &middot; Last updated September 2026
+    </footer>
+  </main>
+</div>
 
 </body>
 </html>
