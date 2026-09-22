@@ -124,3 +124,14 @@ details p { color: var(--text); margin: 10px 0 0; font-size: .96rem; }
   .paper.jmp { padding: 18px; }
   .exp > div { flex-direction: column; gap: 0; }
 }
+
+/* research cards v2 */
+.paper p { margin: 0 0 8px; }
+.label { font-size: .75rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); margin-bottom: 6px !important; }
+.status { font-size: .9rem; color: var(--accent); font-weight: 500; }
+.methods { font-size: .88rem; color: var(--muted); }
+.methods span { font-weight: 600; color: var(--text); }
+.positions { list-style: none; padding: 0; margin: 0; }
+.positions li { display: flex; justify-content: space-between; gap: 12px; padding: 7px 0; border-bottom: 1px solid var(--line); }
+.positions li:last-child { border-bottom: 0; }
+@media (max-width: 640px) { .positions li { flex-direction: column; gap: 0; } }
