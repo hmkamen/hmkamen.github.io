@@ -81,6 +81,13 @@ h3 {
 .methods { font-size: .88rem; color: var(--muted); margin: 0 0 12px; }
 
 .abstract { margin: 0; font-size: .95rem; }
+details summary {
+  cursor: pointer; font-size: .9rem; color: var(--accent); list-style: none; display: inline-block; user-select: none;
+}
+details summary::-webkit-details-marker { display: none; }
+details summary::after { content: " +"; }
+details[open] summary::after { content: " \2212"; }
+details .abstract { margin-top: 10px; }
 
 .pubs { list-style: none; padding: 0; margin: 0; }
 .pubs li { padding: 16px 0; border-bottom: 1px solid var(--line); font-size: .95rem; }
@@ -174,7 +181,9 @@ h3 {
         <h3>The Price of Cool: How Urban Heat Shapes Neighborhood Value</h3>
         <p class="status">Revisions requested, <em>Journal of the Association of Environmental and Resource Economists</em></p>
         <p class="methods">Methods: causal inference &middot; instrumental variables &middot; difference-in-differences &middot; hedonic valuation &middot; spatial econometrics</p>
-        <p class="abstract">
+        <details>
+          <summary>Abstract</summary>
+          <p class="abstract">
             I develop a novel instrumental variable based on urban surface airflow to estimate what households
             are willing to pay for public cooling (e.g. shade trees, cool pavement) at multiple spatial scales.
             I find that households are willing to pay $676 a year for a 1&deg;C reduction in summer temperatures
@@ -182,18 +191,22 @@ h3 {
             cooling benefits spill over beyond the corridor's census tract, tract-level evaluations understate the
             $137 million value of Phoenix's Cool Corridors program by 53%.
           </p>
+        </details>
       </article>
 
       <article class="paper">
         <h3>Extreme Heat and U.S. Labor Relocation: Implications for Inequality</h3>
         <p class="methods">Methods: structural modeling &middot; discrete choice &middot; computable general equilibrium (CGE)</p>
-        <p class="abstract">
+        <details>
+          <summary>Abstract</summary>
+          <p class="abstract">
             Using a discrete choice model of household location linked to a computable general equilibrium
             model of the U.S. economy, I project how climate-induced migration affects wages by educational
             attainment. I find that college-educated workers leave the South at higher rates than
             non-college-educated workers. Less-educated workers who remain in southern states see their wages
             fall by up to 1.4%, while remaining college-educated workers' wages increase by up to 2.1%.
           </p>
+        </details>
       </article>
     </section>
 
